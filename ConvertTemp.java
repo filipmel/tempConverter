@@ -7,14 +7,12 @@ public class ConvertTemp {
 
     public double convertCtoF(double inputTemp) {
 
-        double outputTemp = (inputTemp * 1.8) + 32;
-        return outputTemp;
+       return (inputTemp * 1.8) + 32;
     }
 
 
     public double convertFtoC(double inputTemp) {
 
-        double outputTemp = (inputTemp - 32) / 1.8;
-        return outputTemp;
+        return (inputTemp - 32) / 1
     }
 }
